@@ -1,0 +1,71 @@
+.bakery-homepage {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 30%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.add-to-cart-button,
+.delete-from-cart-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-to-cart-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.delete-from-cart-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.cart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.product img {
+  width: 120px;
+  height: 120px; /* Set a fixed height */
+  /* object-fit: contain; Scale the image down while maintaining the aspect ratio */
+  border-radius: 5px 5px 0 0;
+}
